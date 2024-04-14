@@ -22,7 +22,7 @@ Here are visual representations of model performances, highlighting the strength
   - <img src="images/best_confusion_matrix_sentiwordnet.png" width="500" height="367" alt="Confusion Matrix Unsupervised">
 
 ## Conclusion
-The Opinion Detector excels in processing and classifying sentiments in movie reviews, with its advanced use of machine learning techniques. While the supervised approach shows superior performance, the unsupervised method remains valuable for specific use cases, demonstrating the flexibility and scalability of the application although the limitation created by the negation words that invert the sentiment of a part of the review and are very difficult to detect using not-advanced algorithms.
+The Opinion Detector excels in processing and classifying sentiments in movie reviews, with its advanced use of machine learning techniques. While the supervised approach shows superior performance, the unsupervised method remains valuable for specific use cases, demonstrating the flexibility and scalability of the application although the limitation created by the negation words that invert the sentiment of a part of the review and are very difficult to detect using algorithms.
 
 ## How to Use
 1. **Prepare your data**: Ensure your reviews are in a text format.
