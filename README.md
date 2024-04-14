@@ -15,7 +15,7 @@ The supervised models, particularly Logistic Regression, achieved impressive F1-
 ### Confusion Matrix Examples
 Here are visual representations of model performances, highlighting the strengths and areas for improvement:
 - **Supervised Model (Logistic Regression)**
-  - ![Confusion Matrix Supervised](images/confusion_matrix_LogisticRegression.png)
+  - ![Confusion Matrix Supervised](images/confusion_matrix_Logistic Regression.png)
 - **Unsupervised Model**
   - ![Confusion Matrix Unsupervised](images/best_confusion_matrix_sentiwordnet.png)
 
