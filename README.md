@@ -15,10 +15,9 @@ The supervised models, particularly Logistic Regression, achieved impressive F1-
 ### Confusion Matrix Examples
 Here are visual representations of model performances, highlighting the strengths and areas for improvement:
 - **Supervised Model (Logistic Regression)**
-- 
-  - ![Confusion Matrix Supervised](<img src="images/confusion_matrix_Logistic_Regression.png" width="500" height="367">)
+  - <img src="images/confusion_matrix_Logistic_Regression.png" width="500" height="367" alt="Confusion Matrix Supervised">
 - **Unsupervised Model**
-  - ![Confusion Matrix Unsupervised](<img src="images/best_confusion_matrix_sentiwordnet.png" width="500" height="367">)
+  - <img src="images/best_confusion_matrix_sentiwordnet.png" width="500" height="367" alt="Confusion Matrix Unsupervised">
 
 ## Conclusion
 The Opinion Detector excels in processing and classifying sentiments in movie reviews, with its advanced use of machine learning techniques. While the supervised approach shows superior performance, the unsupervised method remains valuable for specific use cases, demonstrating the flexibility and scalability of the application although the limitation created by the negation words that invert the sentiment of a part of the review and are very difficult to detect using not-advanced algorithms.
