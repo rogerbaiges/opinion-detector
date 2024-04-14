@@ -1,23 +1,31 @@
-# Sentiment Analysis: Opinion Detection
+# Opinion Detector
 
 ## Project Overview
-This project focuses on the development and implementation of a sentiment analysis model that accurately identifies positive and negative opinions in text data. Utilizing advanced natural language processing techniques, the model distinguishes sentiments to assist in various applications such as customer feedback analysis, market research, and social media monitoring.
+This Opinion Detector leverages supervised and unsupervised machine learning methods to classify movie reviews as positive or negative. Built with scikit-learn and NLTK, this tool demonstrates robust text analysis capabilities, making it ideal for understanding public sentiments in movie reviews.
 
 ## Key Features
-- **Sentiment Classification**: Classifies text data into positive or negative sentiments.
-- **High Accuracy**: Achieves high accuracy and precision in detecting sentiments, providing reliable results for practical applications.
-- **Robust Training Dataset**: Utilizes a diverse dataset of labeled sentiments to train the model, ensuring it can handle a wide range of text variations.
-- **Language Support**: Initially supports English with plans to expand to multiple languages.
+- **Supervised Learning Models**: Implements several algorithms like Logistic Regression, Random Forest, SVM, and Naive Bayes for precise sentiment classification.
+- **Unsupervised Approach**: Uses Lesk algorithm and SentiWordNet for sentiment analysis without labeled data, ideal for exploratory data analysis.
+- **Performance Metrics**: Achieves strong classification metrics, with Logistic Regression showing the highest F1-score.
+- **Error Analysis**: Provides insights into model predictions with detailed error analysis, improving model reliability.
 
 ## Results
-The sentiment analysis model demonstrates high performance with precision and accuracy rates exceeding 95%. This ensures that the model can be reliably used in real-world applications where accurate sentiment detection is crucial.
+The supervised models, particularly Logistic Regression, achieved impressive F1-scores and accuracy, demonstrating their effectiveness in classifying sentiments accurately. The unsupervised model offers a valuable alternative for scenarios lacking labeled data, though with lower accuracy.
 
-### Confusion Matrix
-<img src="images/confusion_matrix_sentiment.png" width="500" height="367" alt="Confusion Matrix">
-*The confusion matrix showcases the model's performance in accurately classifying positive and negative sentiments.*
-
-## Additional Model: Deep Learning Implementation
-Beyond the basic sentiment analysis, a deep learning model using a neural network approach has also been implemented. This model leverages layers of LSTM to understand context better and predict sentiments with higher accuracy.
+### Confusion Matrix Examples
+Here are visual representations of model performances, highlighting the strengths and areas for improvement:
+- **Supervised Model (Logistic Regression)**
+  - ![Confusion Matrix Supervised](images/confusion_matrix_LogisticRegeression.png)
+- **Unsupervised Model**
+  - ![Confusion Matrix Unsupervised](images/best_confusion_matrix_sentiwordnet.png)
 
 ## Conclusion
-Our sentiment analysis project stands out with its precise classification capabilities and adaptability across different applications. The addition of a neural network model enhances its robustness, making it a valuable tool for any entity needing to analyze opinions within textual data.
+The Opinion Detector excels in processing and classifying sentiments in movie reviews, with its advanced use of machine learning techniques. While the supervised approach shows superior performance, the unsupervised method remains valuable for specific use cases, demonstrating the flexibility and scalability of the application.
+
+## How to Use
+1. **Prepare your data**: Ensure your reviews are in a text format.
+2. **Choose the model**: Decide between supervised or unsupervised based on your data.
+3. **Run the model**: Use the provided scripts to classify your reviews.
+4. **Analyze the results**: Evaluate the performance using the metrics and confusion matrices provided.
+
+Feel free to contribute to this project by submitting issues or pull requests on GitHub for any enhancements, bug fixes, or improvements. Let's make this tool even better together!
